@@ -1,5 +1,6 @@
-import React from "react";
 import "./AchievementCard.scss";
+
+import React from "react";
 
 export default function AchievementCard({cardInfo, isDark}) {
   function openUrlInNewTab(url, name) {
