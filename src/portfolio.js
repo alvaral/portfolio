@@ -23,10 +23,10 @@ const greeting = {
   username: "Alvaro Alonso",
   title: "Hi, I'm Álvaro",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / Futter and some other libraries and frameworks."
+    "A passionate Full Stack Software Developer having an experience of building Web and Mobile applications with JavaScript / Ionic / Reactjs / Nodejs / Futter and some other libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1jMyVPy5pgjEWhkueDuzhwxbphRdqAElw/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -38,8 +38,8 @@ const socialMediaLinks = {
   gmail: "alvaroalonso222@gmail.com",
   gitlab: "https://gitlab.com/alvaral",
   facebook: "https://www.facebook.com/",
-  medium: "https://medium.com/",
-  stackoverflow: "https://stackoverflow.com/",
+  medium: "https://medium.com/@alvaral",
+  stackoverflow: "https://stackoverflow.com/users/12120361/%c3%81lvaro-alonso",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +49,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integration of third party services such as Firebase/ AWS / Google Analytics"
     )
   ],
 
@@ -137,8 +137,12 @@ const educationInfo = {
       logo: require("./assets/images/logoUva.jpg"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "September 2018 - June 2022",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      desc: "GPA: 3/4.",
+      descBullets: [
+        "Software Engineering",
+        "Operating Systems",
+        "Artificial Intelligence",
+      ]
     }
   ]
 };
@@ -174,10 +178,11 @@ const workExperiences = {
       company: "Brooktec",
       companylogo: require("./assets/images/brooktecLogo.jpg"),
       date: "February 2022 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Mobile projects with Flutter, Ionic+Angular and .NET MAUI frameworks.",
+        "Web frontend projects with ReactJS",
+        "Backend projects with NodeJS, SQL and Sequelize."
       ]
     },
     // {
@@ -195,7 +200,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -289,7 +294,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
