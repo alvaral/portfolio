@@ -21,11 +21,12 @@ import Talks from "./talks/Talks";
 import Twitter from "./twitter-embed/twitter";
 import WorkExperience from "./workExperience/WorkExperience";
 import {splashScreen} from "../portfolio";
-import {useLocalStorage} from "../hooks/useLocalStorage";
+
+// import {useLocalStorage} from "../hooks/useLocalStorage";
 
 const Main = () => {
-  const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
-  const [isDark, setIsDark] = useLocalStorage("isDark", darkPref.matches);
+  // const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
+  // const [isDark, setIsDark] = useLocalStorage("isDark", darkPref.matches);
   const [isShowingSplashAnimation, setIsShowingSplashAnimation] =
     useState(true);
 
@@ -41,9 +42,9 @@ const Main = () => {
     }
   }, []);
 
-  const changeTheme = () => {
-    setIsDark(!isDark);
-  };
+  // const changeTheme = () => {
+  //   setIsDark(!isDark);
+  // };
 
   return (
     // <div className={isDark ? "dark-mode" : null}>

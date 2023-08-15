@@ -13,7 +13,6 @@ import {
 
 import Headroom from "react-headroom";
 import StyleContext from "../../contexts/StyleContext";
-import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 
 function Header() {
   const {isDark} = useContext(StyleContext);
