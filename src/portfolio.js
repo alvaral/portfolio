@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Alvaro Alonso",
-  title: "Hi, I'm Álvaro",
+  title: "Hey! I'm Álvaro",
   subTitle: emoji(
     "A passionate Full Stack Software Developer having an experience of building Web and Mobile applications with JavaScript / Ionic / Reactjs / Nodejs / Futter and some other libraries and frameworks."
   ),
@@ -354,11 +354,11 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Me"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+34-646977421",
-  email_address: "alvaroalonso2220@gmail.com"
+  email_address: "alvaroalonso222@gmail.com"
 };
 
 // Twitter Section
