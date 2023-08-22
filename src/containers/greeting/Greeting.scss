@@ -10,7 +10,7 @@
   width: 90%;
   padding: 20px 10px;
   margin: 0px auto;
-  margin-top: 2rem;
+  // margin-top: 2rem;
 }
 
 .greeting-main {
@@ -28,6 +28,8 @@
 .greeting-main > * {
   flex: 1;
   margin-bottom: 30px;
+  padding: 15px 17px;
+  margin: auto;
 }
 .button-greeting-div {
   display: flex;
@@ -35,7 +37,7 @@
 }
 
 .greeting-text {
-  font-size: 70px;
+  font-size: 50px;
   line-height: 1.1;
   color: $textColor;
 }
@@ -48,6 +50,8 @@
 .greeting-image-div > img {
   max-width: 100%;
   height: auto;
+  max-height: 600px;
+  margin-bottom: 20px;
 }
 
 .wave-emoji {
@@ -109,6 +113,8 @@
   }
   .greeting-image-div {
     height: 256px;
+    justify-content: center; // Centra horizontalmente
+    align-items: center;
   }
 }
 
