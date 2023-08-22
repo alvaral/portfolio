@@ -141,7 +141,7 @@ const educationInfo = {
       descBullets: [
         "Software Engineering",
         "Operating Systems",
-        "Artificial Intelligence",
+        "Artificial Intelligence"
       ]
     }
   ]
@@ -184,7 +184,7 @@ const workExperiences = {
         "Web frontend projects with ReactJS",
         "Backend projects with NodeJS, SQL and Sequelize."
       ]
-    },
+    }
     // {
     //   role: "Software Engineer Intern",
     //   company: "Airbnb",

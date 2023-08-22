@@ -24,7 +24,7 @@ export default function Greeting() {
             <div>
               <h1
                 // className={isDark ? "dark-mode greeting-text" : "greeting-text"}
-                className={ "dark-mode greeting-text"}
+                className={"dark-mode greeting-text"}
               >
                 {" "}
                 {greeting.title}{" "}
@@ -59,7 +59,6 @@ export default function Greeting() {
               <img
                 alt="man sitting on table"
                 src={require("../../assets/images/personal_photo.jpg")}
-                
               ></img>
             )}
           </div>
