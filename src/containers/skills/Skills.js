@@ -1,11 +1,13 @@
-import React, {useContext} from "react";
 import "./Skills.scss";
-import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
+
+import React, {useContext} from "react";
 import {illustration, skillsSection} from "../../portfolio";
-import {Fade} from "react-reveal";
-import codingPerson from "../../assets/lottie/codingPerson";
+
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
+import {Fade} from "react-reveal";
+import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import StyleContext from "../../contexts/StyleContext";
+import codingPerson from "../../assets/lottie/codingPerson";
 
 export default function Skills() {
   const {isDark} = useContext(StyleContext);
@@ -22,7 +24,7 @@ export default function Skills() {
             ) : (
               <img
                 alt="Man Working"
-                src={require("../../assets/images/developerActivity.svg")}
+                src={require("../../assets/images/unpersonal_photo.jpg")}
               ></img>
             )}
           </div>
