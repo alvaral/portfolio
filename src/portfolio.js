@@ -77,6 +77,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
+      skillName: "Ionic",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
       skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react"
     },
@@ -84,10 +88,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
+    // {
+    //   skillName: "swift",
+    //   fontAwesomeClassname: "fab fa-swift"
+    // },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
@@ -96,18 +100,18 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
+    // {
+    //   skillName: "aws",
+    //   fontAwesomeClassname: "fab fa-aws"
+    // },
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
+    // {
+    //   skillName: "python",
+    //   fontAwesomeClassname: "fab fa-python"
+    // },
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
@@ -207,28 +211,36 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/logo-breakapp.webp"),
+      projectName: "Break Tour",
+      projectDesc: "The 'BrekTour' project is an application made with Flutter Framework designed for fans of paddle tennis. The application's main objective is to provide users with an easy and fast way to find and participate in amateur padel tournaments at the best clubs in their area.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Google Play",
+          url: "https://play.google.com/store/apps/details?id=com.breaktour.app"
+        },
+        {
+          name: "Apple Store",
+          url: "https://apps.apple.com/es/app/break-tour/id1664857826"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/logo-andbank.png"),
+      projectName: "AndBank Wealth",
+      projectDesc: "The 'Andbank Wealth' project is a digital service made with React, Angular and .NET Frameworks. Created exclusively for customers in Andorra, Luxembourg and Monaco with the aim of offering them more convenience and agility in managing their investments.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Google Play",
+          url: "https://play.google.com/store/apps/details?id=com.andbank.wealth&hl=es&gl=US"
+        },
+        {
+          name: "Apple Store",
+          url: "https://apps.apple.com/es/app/andbank-wealth/id1362073804"
         }
       ]
     }
